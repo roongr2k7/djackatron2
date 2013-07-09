@@ -11,6 +11,7 @@
 	<properties>
 		<spring.version>3.2.0.RELEASE</spring.version>
 		<slf4j.version>1.6.4</slf4j.version>
+		<joda.time.version>2.0</joda.time.version>
 	</properties>
 
 	<dependencies>
@@ -30,6 +31,12 @@
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>${joda.time.version}</version>
 		</dependency>
 
 		<!-- Log -->
